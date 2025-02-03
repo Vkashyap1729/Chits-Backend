@@ -10,7 +10,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Initialize the database
 db.init_app(app)
 
-@app.route('/user', methods=['GET'])
+@app.route('/use', methods=['GET'])
 def get_users():
     # Query the User model to get all users
     users = User.query.all()  # This fetches all rows from the users table
