@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Logs and debugging
+logs/
+*.log
+debug.log
+
+# Flask-related files
+instance/
+*.sqlite3
+*.db
+*.sqlite
+
+# Pytest / Coverage reports
+.coverage
+htmlcov/
+*.cover
+.cache
+
+# Environment variables / secrets
+.env
+*.pem
+config.json
+
+# Compiled code
+*.so
+*.pyd
+*.dll
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Deployment-related files
+*.tar.gz
+*.zip
+.DS_Store
+*.pid
+*.sock
+
+# Git itself
+.git/
+
+# Gunicorn and Nginx logs
+gunicorn.log
+gunicorn-access.log
+gunicorn-error.log
+nginx/
